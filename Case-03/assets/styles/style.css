@@ -60,3 +60,6 @@ section>div>span{
     margin: auto;
     text-align: center;
 }
+body{
+    margin: 0;
+}
