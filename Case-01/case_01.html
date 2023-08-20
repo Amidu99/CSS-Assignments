@@ -77,6 +77,45 @@
             top: 0;
             margin: auto;
         }
+        .corner{
+            width: 14vw;
+            aspect-ratio: 1/1;
+            background: #F7F9F8;
+            border-radius: 100%;
+            position: absolute;
+        }
+        #corner1{
+            top: calc(-14vw/2);
+            left: calc(-14vw/2);
+        }
+        #corner2{
+            left: 0;
+            right: 0;
+            top: calc(-16vw/2);
+            margin: auto;
+        }
+        #corner3{
+            top: calc(-14vw/2);
+            right: calc(-14vw/2);
+        }
+        #corner4{
+            bottom: calc(-14vw/2);
+            left: calc(-14vw/2);
+        }
+        #corner5 {
+            left: 0;
+            right: 0;
+            bottom: calc(-16vw/2);
+            margin: auto;
+        }
+        #corner6{
+            bottom: calc(-14vw/2);
+            right: calc(-14vw/2);
+        }
+        body{
+            overflow: hidden;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -87,5 +126,11 @@
     <div class="main"><div><div></div></div></div>
 </section>
     <div id="mid-box"><div id="mid-circle"></div></div>
+    <div class="corner" id="corner1"></div>
+    <div class="corner" id="corner2"></div>
+    <div class="corner" id="corner3"></div>
+    <div class="corner" id="corner4"></div>
+    <div class="corner" id="corner5"></div>
+    <div class="corner" id="corner6"></div>
 </body>
 </html>
