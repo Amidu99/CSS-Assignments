@@ -35,6 +35,9 @@ section>div:nth-child(2)>span{
     top: 0;
     z-index: 3;
 }
+body{
+    margin: 0;
+}
 section:nth-child(1)>div:nth-child(1){
     background: #FF3520;
 }
