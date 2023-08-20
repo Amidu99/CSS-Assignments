@@ -5,10 +5,40 @@
     <title>Case_01-A$</title>
     <link rel="stylesheet" href="/normalize.css">
     <style>
-
+        section{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        section>.main{
+            height: 50%;
+            width: 50%;
+            position: absolute;
+        }
+        section>.main:nth-child(1){
+            background: #E4181E;
+        }
+        section>.main:nth-child(2){
+            background: #01DC03;
+            right: 0;
+        }
+        section>.main:nth-child(3){
+            background: #FFEB0A;
+            bottom: 0;
+        }
+        section>.main:nth-child(4){
+            background: #FF00A0;
+            right: 0;
+            bottom: 0;
+        }
     </style>
 </head>
 <body>
-
+<section>
+    <div class="main"><div></div></div>
+    <div class="main"><div></div></div>
+    <div class="main"><div></div></div>
+    <div class="main"><div></div></div>
+</section>
 </body>
 </html>
