@@ -1,0 +1,21 @@
+header{
+    position: relative;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+header>img{
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+header>nav{
+    position: absolute;
+    width: fit-content;
+    right: 25px;
+    top: 7px;
+}
+header>nav>dl>dd{
+    font-family: 'Concert One', cursive;
+    display: inline-block;
+    margin-left: 25px;
+}
